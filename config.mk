@@ -19,7 +19,8 @@ PRODUCT_PACKAGES += \
     NexusWallpapersStubPrebuilt2019Static \
     OPScreenRecorder \
     SettingsIntelligenceGooglePrebuilt \
-    GooglePermissionControllerOverlay
+    GooglePermissionControllerOverlay \
+    RetroMusicPlayer
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
