@@ -20,7 +20,8 @@ PRODUCT_PACKAGES += \
     OPScreenRecorder \
     SettingsIntelligenceGooglePrebuilt \
     GooglePermissionControllerOverlay \
-    RetroMusicPlayer
+    RetroMusicPlayer \
+    AppLock
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
@@ -167,3 +168,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay/common/
+
